@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="0"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_cart">
+        <menu>
+
+    <item
+        android:id="@+id/action_check_out"
+        android:orderInCategory="100"
+        android:title="@string/check_out"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_check"/>
+    <item
+        android:id="@+id/action_clear_cart"
+        android:orderInCategory="100"
+        android:title="@string/clear_cart"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_clear"/>
+        <item
+            android:id="@+id/action_admin_login"
+            android:orderInCategory="100"
+            android:title="@string/admin_login"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_person"/>
+
+</menu>
+    </item>
+</menu>

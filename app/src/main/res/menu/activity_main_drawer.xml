@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+              <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/products">
+        <menu>
+            <item
+                android:id="@+id/nav_drinks"
+                android:icon="@drawable/ic_local_drink"
+                android:title="@string/drinks" />
+            <item
+                android:id="@+id/nav_seeds"
+                android:icon="@drawable/ic_grain"
+                android:title="@string/seeds" />
+            <item
+                android:id="@+id/pbs"
+                android:icon="@drawable/ic_album"
+                android:title="@string/pbs"/>
+            <item
+                android:id="@+id/hotel"
+                android:icon="@drawable/ic_hotel"
+                android:title="@string/kisumu_hotel"
+                />
+            <item
+                android:id="@+id/admin"
+                android:icon="@drawable/ic_person"
+                android:title="@string/title"
+                />
+
+
+        </menu>
+    </item>
+
+</menu>

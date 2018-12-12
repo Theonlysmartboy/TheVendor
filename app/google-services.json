@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "660049077125",
+    "firebase_url": "https://market-308da.firebaseio.com",
+    "project_id": "market-308da",
+    "storage_bucket": "market-308da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660049077125:android:ae1e2b95264ed043",
+        "android_client_info": {
+          "package_name": "com.otemainc.thevendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660049077125-3ll6skstfm8f6itnbrani5b3qmgl0pfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otemainc.thevendor",
+            "certificate_hash": "f5e4160640db58dc4a548752a6695c65c7a124e7"
+          }
+        },
+        {
+          "client_id": "660049077125-sbrgbtkadvrih4ip3e3quvol007dbpqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGH-p7VPcREbbmfLl6KUF5ovC5zA6YEwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660049077125-sbrgbtkadvrih4ip3e3quvol007dbpqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
