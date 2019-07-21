@@ -44,7 +44,7 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(new Intent(this, DisplayActivity.class));
                 break;
             case R.id.rights:
-                Uri uri = Uri.parse("http://www.maseno.ac.ke"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("https://otemainc.com"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
                 break;

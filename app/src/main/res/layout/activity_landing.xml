@@ -88,7 +88,8 @@
             android:layout_height="wrap_content"
             android:text="@string/u00a9_2018_maseno_university"
             android:layout_gravity="bottom"
-            android:gravity="bottom"/>
+            android:gravity="bottom"
+            android:textAlignment="center"/>
     </LinearLayout>
     </ScrollView>
 
