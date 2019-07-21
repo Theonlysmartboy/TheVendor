@@ -67,6 +67,7 @@ public class DrinksActivity extends AppCompatActivity implements NavigationView.
         toggle.syncState();
         Log.d(TAG, "onCreate: Created");
         NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));

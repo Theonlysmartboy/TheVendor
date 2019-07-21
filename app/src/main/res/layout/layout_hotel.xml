@@ -18,11 +18,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <TextView
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
                         android:textSize="@dimen/text_standard"
                         android:id="@+id/textViewName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Name"
+                        android:text="@string/name"
                         android:textAlignment="center" />
                 </TableRow>
                 <TableRow
@@ -43,9 +45,7 @@
                         android:id="@+id/textdescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="0dp"
-                        android:text="@string/nav_header_desc"
+                       android:text="@string/nav_header_desc"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_standard" />
                 </TableRow>
@@ -53,13 +53,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <TextView
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
                         android:id="@+id/textcost"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
                         android:text="@string/cost_in_ksh"
                         android:textSize="@dimen/text_standard"
-                        android:layout_marginLeft="115dp"/>
+                        android:textAlignment="center"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="wrap_content"
